@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Store</title>
+
+<!--Link para pegar o estilo CSS dos setvidores qdo Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .tm-social {
+        width: 50px;
+        height: 50px;
+        }
+        </style>
+</head>
+
+<body>
+
+<!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand text-info" href="#">Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link text-white" href="#">|<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-white" href="#">FEMININO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">MASCULINO</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">INFANTIL</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CASA & DECORAÇÃO</a> 
+                        </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mais
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Programa de fidelidade</a>
+                <a class="dropdown-item" href="#">Trabalhe conosco</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Sobre a empresa</a> 
+            </div>
+            </li>
+        </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar produto" aria-label="Buscar produto">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Entre ou cadastre-se</button>
+            </form>
+        </div>
+        </nav>
+<!--/Menu-->
+
+<!-- Carrosel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/infantil1.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/infatil2.jpg" alt="Segundo Slide">
+          </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/masculino.jpg" alt="Terceiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/feminino2.jpg" alt="Quarto Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/masculino2.jpg" alt="Quinto Slide">
+    </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/feminino.jpg" alt="Sexto Slide">
+          </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+<!-- /Carrosel -->
+
+<!-- Jumbotron  -->
+<div class="jumbotron jumbotron-fluid text-info row mt-5 mb-5">
+    <div class="container">
+      <h1 class="display-4">Moda BLOGGER</h1>
+      <p class="lead">Tendência para todas as idades</p>
+    </div>
+  </div>
+<!-- Jumbotron -->
+
+<!-- cards -->
+<div class="container">
+
+    <div class="card-deck bg-info">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/infatil2.jpg" alt="Imagem de capa do card 1">
+          <div class="card-body">
+            <h5 class="card-title">Infantil</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit ab ipsam aperiam temporibus eos nemo! Repudiandae, iure explicabo! Unde blanditiis possimus, ipsum adipisci consequuntur alias veritatis similique enim quos.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/feminino.jpg" alt="Imagem de capa do card 2">
+          <div class="card-body">
+            <h5 class="card-title">Feminino</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere perspiciatis ipsam quos facilis quisquam unde quas, natus veritatis iure culpa deleniti aspernatur eum ullam. Numquam voluptates enim consectetur veritatis nostrum.</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/img/masculino2.jpg" alt="Imagem de capa do card 3">
+          <div class="card-body">
+            <h5 class="card-title">Masculino</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni non recusandae minima nesciunt voluptate obcaecati. Sed unde aspernatur necessitatibus eaque itaque molestias amet nemo, doloribus quas ratione vitae quaerat facilis.lorem</p>
+            <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          </div>
+        </div>
+      </div>
+
+<!-- / cards -->
+
+<!-- Texto e video -->
+<div class="row row d-flex align-items-center mt-5 mb-5">
+<div class="col-md-6 text-info text-justify">
+    <h3>Inspirações</h3>
+    <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta soluta doloremque ipsa, ducimus ad suscipit quisquam minus labore deserunt optio eius, voluptatibus dolorum maiores debitis laborum quod tempore quis alias!
+    </P>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur molestias adipisci culpa dolor modi iure, id hic explicabo accusantium quasi sunt fugiat? Nemo hic quasi dolorem ducimus corporis asperiores.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus amet iste aspernatur qui unde possimus hic deleniti sit quaerat exercitationem minus laborum, natus fugiat ad, officiis cum temporibus.
+    </p>
+</div>
+
+<div class="col-md-6">
+    <iframe width="580" 
+    height="350" 
+    src="https://www.youtube.com/embed/EwKfB4NP_4M" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+</div>
+<!-- / Texto e video -->
+
+<!--Formulário de contato-->
+<div class="row mb-5">
+  <div class="col-md-12">
+    <h4 class="text-left text-white bg-info">
+      &nbsp;&nbsp; Entre em contato 
+    </h4>
+  </div>
+</div>
+
+<div class="row d-flex align-items-center">
+  <div class="col-md-6">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">E-mail:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Assunto:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <div class="form-group d-flex justify-content-end">
+        <button class="btn btn-outline-info">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="col-md-6">
+    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.3412775147713!2d-34.921398585669316!3d-8.168330584117582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aae1ba681abb2f%3A0xaab0b0b6849d2c8f!2sShopping%20Guararapes!5e0!3m2!1spt-BR!2sbr!4v1653442381222!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
+
+<!--/Formulário de contato-->
+
+
+<!--Rodapé-->
+  <hr>
+<footer>
+
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+        
+          <a href="https://github.com/willihane" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img-rsociais/github.png" alt="Logo do GitHub">
+          </a>
+    
+          <a href="https://www.linkedin.com/in/williane-pereira/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img-rsociais/linkedin.png" alt="Logo do Linkedin">
+          </a>
+    
+          <a href="mailto:willyaneh@gmail.com" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img-rsociais/gmail.png" alt="Logo do gmail">
+          </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados: Williane Silva - 2022 &copy
+        </p>
+      </div>
+    </div>
+
+  </footer>
+  <!--/ Rodapé-->
+
+</div>
+
+<!--Scripts necessário para utilização dos códigos JS do Bootstrap-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
